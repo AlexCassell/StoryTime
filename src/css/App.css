@@ -1,0 +1,60 @@
+@font-face {
+  font-family: Aleo;
+  src: local('?'), 
+      url('../fonts/aleo-bold-webfont.ttf') format('truetype'),
+  
+} 
+
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #156C1F;
+}
+
+a:active {
+  text-decoration: underline;
+  color: red;
+}
+
+.active {
+  color: red;
+}
+
+.topNavigation {
+  display: flex;
+  justify-content: center;
+}
+
+.topNavigation__items {
+  font-family: Aleo;
+  font-weight: 900;
+  position: relative;
+}
+
+.Nav-link {
+  padding: 10px;
+  background: #0E68E8;
+  border-radius: 25px;
+  border: solid 2px black;
+  font-size: 2em;
+  margin-left: 15px;
+}
+
+.mainWindow {
+  position: absolute;
+  bottom:0px;
+  width:100%;
+  height: calc(100% - 50px);
+  box-sizing:border-box;
+}
+

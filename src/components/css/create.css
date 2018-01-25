@@ -1,0 +1,136 @@
+body{
+    background-color: #156C1F;
+}
+
+.inputForms{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 270px;
+    padding: 0 25px 15px 25px;
+    font-size: 0.65em;
+    font-weight: bold;
+
+}
+
+.inputForms__properties{
+    /* background-color: #768AA9; */
+    color: black;
+    text-align: center;
+    font-size: .9em;
+    padding: 0 10px 0 10px;
+    border: solid 2px black;
+    border-radius: 25px;
+    height: 31.5px;
+}
+
+
+.create {
+    position: absolute;
+    text-align: center;
+    padding-top:15px;
+    top:50px;
+    width:100%;
+    box-sizing:border-box;
+}
+
+.create__title{
+    font-size: 1.8em;
+    color: white;
+}
+
+.inputForms__checkbox{
+    width: 35px;
+}
+
+.checkboxWrapper{
+    font-size: .9em;
+}
+
+
+/* forms */
+.container {
+    width: 100%;
+    height: 450px;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    justify-content:space-evenly;
+}
+.item {
+    width: 315px;
+    color: black;
+    height: 360px;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding-top: 15px;
+}
+.storyInfo {
+    background: #0E68E8;
+
+}
+.characters {
+    background: #8B211B;
+}
+.locations {
+    background: #E87400;
+}
+.objects {
+    background: #FF0CF4;
+}
+.jobs{
+    background: #C6FF00;
+}
+.firstActions{
+    background: #59FF00;
+}
+
+.inputForms__infoBackground{
+    background-color: #0E68E8;
+}
+.inputForms__charactersBackground{
+    background-color: #8B211B;
+}
+.inputForms__locationsBackground{
+    background-color: #E87400;
+}
+.inputForms__objectsBackground{
+    background-color: #FF0CF4;
+}
+.inputForms__jobsBackground{
+    background-color: #C6FF00;
+}
+.inputForms__jobsActionsBackground{
+    background-color: #59FF00;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: black;
+}
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: black;
+}
+  :-ms-input-placeholder { /* IE 10+ */
+    color: black;
+}
+  :-moz-placeholder { /* Firefox 18- */
+    color: black;
+}
+
+/* Todo */
+
+.todoList{
+    padding-top: 15px;
+    text-align: left;
+}
+
+/* .todoList__items{
+    
+} */

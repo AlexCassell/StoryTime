@@ -1,0 +1,56 @@
+.storyWrapper{
+    color: white;
+    text-align: left;
+}
+
+
+.story__title{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+.savedLink{
+    color: red;
+    font-size: 2em;
+    padding: 15px;
+}
+
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: white;
+}
+
+.button_storyRefactor{
+    background-color: #2C4771;
+    color: white;
+    font-size: 2em;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+}
+
+.button_saveStory{
+    background-color: #2C4771;
+    color: white;
+    font-size: 2em;
+    width: 275px;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+}
+
+.storyWrapper{
+    padding: 5px 15px 15px 15px;
+    font-size: 2em;
+}
