@@ -1,6 +1,6 @@
 # Story Time
 
-[Click here to see this Fullstack App in Action](https:www.storytime.alexcassell.com)
+[Click here to see this Fullstack App in Action](https://www.storytime.alexcassell.com)
 
 Fill in some variables and hit create and this app will use your input, as well as randomize parts of the text to create a unique story.  Currently it only utilizes one story, so it is not as unique as the finished product would be.
 
